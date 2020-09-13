@@ -1,0 +1,18 @@
+
+.buttons__button {
+    background: none;
+    border: none;
+    color: teal;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .buttons__button {
+        width: 100%;
+     
+          
+        }
+    }
+    .buttons__button:hover {
+        color: rgb(66, 117, 117);
+    }
