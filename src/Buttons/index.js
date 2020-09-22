@@ -2,24 +2,22 @@ import React from "react";
 import "./style.css";
 
 const Buttons = ({ tasks, hideDoneTasks }) => {
-    if (tasks.length === 0) {
-        return null;
-    }
-    return (
-        <div className="bottom__buttons js-bottom__buttons">
-            <button className="buttons__button js-toggleHideDoneTasks">
-                {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
+  if (tasks.length === 0) {
+    return null;
+  }
+  return (
+    <div className="bottom__buttons js-bottom__buttons">
+      <button className="buttons__button js-toggleHideDoneTasks">
+        {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
       </button>
-            <button
-                className="buttons__button"
-                disabled={tasks.every(({done}) => done)}
-            >
-                Ukończ wszystkie
+      <button
+        className="buttons__button"
+        disabled={tasks.every(({ done }) => done)}
+      >
+        Ukończ wszystkie
       </button>
-        </div>
-    )
-}
-
-
+    </div>
+  );
+};
 
 export default Buttons;
