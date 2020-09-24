@@ -1,5 +1,5 @@
 # Task list
-<a href=" https://kolanoadrian.github.io/todos-list-react/>Go to website</a>
+https://kolanoadrian.github.io/todos-list-react/
 ## .................................................................................................
 
 
