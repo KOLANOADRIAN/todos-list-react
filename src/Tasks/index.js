@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 const Tasks = (props) => (
-  <ul className="container__list js-tasks">
+  <ul className="container__list">
     {props.tasks.map((task) => (
       <li
         className={`container__listIteam ${
@@ -19,7 +19,7 @@ const Tasks = (props) => (
         >
           {task.content}
         </span>
-        <button className="tasks__buttonRemove tasks__buttonRemove--done js-remove">
+        <button className="tasks__buttonRemove tasks__buttonRemove--done">
           🗑
         </button>
       </li>
