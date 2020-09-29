@@ -58,7 +58,7 @@ function App() {
       <Section
         title="Lista zadań"
         body={
-          <Tasks
+          < Tasks
             tasks={tasks}
             hideDone={hideDone}
             removeTask={removeTask}
