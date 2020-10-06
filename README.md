@@ -4,7 +4,7 @@
 
 
 ### Preview
-![Preview GIF](video.gif)
+![Preview GIF](video1.gif)
 
 ### Technologies Used
 
