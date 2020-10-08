@@ -1,5 +1,5 @@
 # Task list
-https://kolanoadrian.github.io/todos-list-react/
+https://kolanoadrian.github.io/todos-list-react/index
 ## .................................................................................................
 
 
